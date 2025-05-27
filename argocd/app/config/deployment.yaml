@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: argocd-demo
-          image: nginx
+          image: longbnh/car-serv
           ports:
             - containerPort: 80
 
